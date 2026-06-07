@@ -1,0 +1,29 @@
+# KiCad backup files
+*.kicad_sym-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.bak
+*-backups/
+*~
+
+# KiCad lock files
+*.lck
+
+# KiCad autosave
+\#auto_saved_files#
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# Editor
+*.swp
+*.swo
+.vscode/
+.idea/
