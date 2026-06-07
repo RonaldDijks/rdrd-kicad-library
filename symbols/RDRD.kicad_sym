@@ -355,16 +355,16 @@
 				)
 			)
 		)
-		(symbol "BTM9020EP_0_1"
+		(symbol "BTM9020EP_1_1"
 			(rectangle
 				(start -7.62 8.89)
 				(end 7.62 -8.89)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
