@@ -1,0 +1,125 @@
+{
+  "checked": "2026-10-11",
+  "models": [
+    {
+      "original_footprint": "Connector_Molex:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical",
+      "footprint": "RDRD:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical",
+      "model": "3d_models/Molex_0436500415.STEP",
+      "source": "https://www.molex.com/en-us/products/part-detail/436500415",
+      "source_kind": "Manufacturer STEP",
+      "rotation_deg": [
+        -90,
+        0,
+        0
+      ],
+      "offset_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "original_footprint": "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical",
+      "footprint": "RDRD:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical",
+      "model": "3d_models/Molex_0039281023.STEP",
+      "source": "https://www.molex.com/en-us/products/part-detail/39281023",
+      "source_kind": "Manufacturer STEP",
+      "rotation_deg": [
+        -90,
+        0,
+        0
+      ],
+      "offset_mm": [
+        0,
+        -2.95,
+        0
+      ]
+    },
+    {
+      "original_footprint": "Inductor_SMD:L_Bourns-SRU8043",
+      "footprint": "RDRD:L_Bourns-SRU8043",
+      "model": "3d_models/Bourns_SRU8043.STEP",
+      "source": "https://www.bourns.com/engineering/SRU8043/sru8043.stp",
+      "source_kind": "Manufacturer STEP",
+      "rotation_deg": [
+        -90,
+        0,
+        0
+      ],
+      "offset_mm": [
+        0,
+        0,
+        0.2
+      ]
+    },
+    {
+      "original_footprint": "Inductor_SMD:L_Bourns_SRP7028A_7.3x6.6mm",
+      "footprint": "RDRD:L_Bourns_SRP7028A_7.3x6.6mm",
+      "model": "3d_models/Bourns_SRP7028A.STEP",
+      "source": "https://www.bourns.com/engineering/SRP7028A/SRP%207028A%20series.stp",
+      "source_kind": "Manufacturer STEP",
+      "rotation_deg": [
+        180,
+        0,
+        -90
+      ],
+      "offset_mm": [
+        0.00253,
+        0.29889,
+        2.01891
+      ]
+    },
+    {
+      "original_footprint": "RDRD:L_Bourns_SRP1038CC_10.0x10.0mm",
+      "footprint": "RDRD:L_Bourns_SRP1038CC_10.0x10.0mm",
+      "model": "3d_models/Bourns_SRP1038CC_Leadframe.STEP",
+      "source": "https://www.bourns.com/engineering/SRP1038CC/3D_SRP1038CC%20SERIES(leadframe%20type).stp",
+      "source_kind": "Manufacturer STEP",
+      "rotation_deg": [
+        180,
+        0,
+        0
+      ],
+      "offset_mm": [
+        0,
+        0,
+        3.25
+      ]
+    },
+    {
+      "original_footprint": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+      "footprint": "RDRD:Fuse_Littelfuse-NANO2-451_453",
+      "model": "3d_models/Littelfuse_0451005_MRL.STEP",
+      "source": "https://www.littelfuse.com/assetdocs/littelfuse-fuse-451-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1",
+      "source_kind": "Locally generated nominal external geometry from manufacturer drawing",
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "offset_mm": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "exceptions": [
+    {
+      "footprint": "RDRD:FYSETC_QHV5160_V2.0_StepStick_P2.54mm",
+      "reason": "No verified V2.0 CAD available. FYSETC published STEP archive is V1.0D; deliberately not attached.",
+      "source": "https://github.com/FYSETC/FYSETC-QHV5160"
+    }
+  ],
+  "validation": {
+    "cad_geometry": "All six imported/generated STEP shapes pass OpenCascade BRepCheck_Analyzer",
+    "rendering": "KiCad 10 top and oblique proof-board renders inspected for alignment",
+    "schematic_counts": {
+      "model_resolves": 81,
+      "bare_copper_no_model": 10,
+      "unverified_QHV5160_V2_model": 2
+    },
+    "schematic_nets_unchanged": 89,
+    "erc_violations_unchanged": 31
+  }
+}
